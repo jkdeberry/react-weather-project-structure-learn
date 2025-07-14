@@ -31,6 +31,12 @@
 
 }
 
+.Weather .clearfix {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .Weather img {
   height: 64px;
   width: 64px;
@@ -46,10 +52,10 @@
 .Weather .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 550;
   position: relative;
   line-height: 1;
   top: -34px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
