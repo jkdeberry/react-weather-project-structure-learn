@@ -1,0 +1,72 @@
+@media (max-width: 576px) {
+  .Weather .row {
+    flex-direction: column;
+  }
+
+  .Weather .col-9,
+  .Weather .col-3 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Forecast row responsive */
+@media (max-width: 768px) {
+  .WeatherForecast .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .WeatherForecast .col {
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin: 5px;
+  }
+}
+
+/* Stack icon and temperature vertically on small screens */
+@media (max-width: 576px) {
+  .Weather .clearfix {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Weather .temperature {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+
+  .Weather .unit {
+    top: -20px;
+  }
+
+  .Weather img,
+  .weather-icon {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+  }
+
+  .Weather h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Weather ul,
+  .Weather li {
+    text-align: center;
+  }
+}
+
+/* General responsiveness */
+@media (max-width: 992px) {
+  .App {
+    margin: 20px;
+    padding: 0 10px;
+  }
+
+  .Weather {
+    padding: 12px;
+  }
+}

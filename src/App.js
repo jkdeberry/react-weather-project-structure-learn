@@ -11,7 +11,7 @@ export default function App() {
         This project was coded by{" "}
         <a href="https://github.com/jkdeberry" target="_blank"  rel="noopener noreferrer">Jeanine DeBerry</a>{" "}
         and is {" "} 
-        <a href="https://github.com/jkdeberry/react-weather-project-structure-learn" target="_blank" rel="noopener noreferrer">open-sourced on Github
+        <a href="https://github.com/jkdeberry/dictionary-project-jd1" target="_blank" rel="noopener noreferrer">open-sourced on Github
       </a>
       </footer>
       </div>
