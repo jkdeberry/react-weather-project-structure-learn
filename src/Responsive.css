@@ -1,11 +1,38 @@
+* Stack form fields on small screens */
+@media (max-width: 576px) {
+  .Weather .row {
+    flex-direction: column;
+  }
+
   .Weather .col-9,
   .Weather .col-3 {
     width: 100%;
     margin-bottom: 10px;
   }
+  
+
+  .Weather .temperature {
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .Weather .unit {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .Weather h1 {
+    font-size: 20px;
+  }
+
+  .Weather ul,
+  .Weather li {
+    text-align: center;
+  }
 }
 
-/* Forecast row responsive */
+/* Forecast layout for tablets and below */
 @media (max-width: 768px) {
   .WeatherForecast .row {
     display: flex;
@@ -20,35 +47,7 @@
   }
 }
 
-/* Stack icon and temperature vertically on small screens */
-  .Weather .temperature {
-    font-size: 48px;
-    line-height: 1.1;
-  }
-
-  .Weather .unit {
-    top: -20px;
-  }
-
-  .Weather img,
-  .weather-icon {
-    width: 100%;
-    max-width: 80px;
-    height: auto;
-  }
-
-  .Weather h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .Weather ul,
-  .Weather li {
-    text-align: center;
-  }
-}
-
-/* General responsiveness */
+/* General layout tweaks for medium screens */
 @media (max-width: 992px) {
   .App {
     margin: 20px;
@@ -57,32 +56,5 @@
 
   .Weather {
     padding: 12px;
-  }
-}
-
-/* Shared style for icon and temperature */
-.weather-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-/* Responsive fix for mobile layout */
-@media (max-width: 576px) {
-  .weather-main {
-    flex-direction: column;
-  }
-
-  .Weather .temperature {
-    font-size: 48px;
-    line-height: 1.2;
-    text-align: center;
-  }
-
-  .Weather .unit {
-    font-size: 14px;
-    position: static;
-    text-align: center;
   }
 }

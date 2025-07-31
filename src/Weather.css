@@ -1,9 +1,9 @@
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
-  color: rgb(135, 135, 135);
+  border: 1px solid #2b80f0;
+  background-color: #becafd;
   padding: 16px;
-  border-radius: 4px
+  border-radius: 4px;
 }
 
 .Weather form {
@@ -15,7 +15,6 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
-
 }
 
 .Weather ul {
@@ -28,13 +27,12 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-
 }
 
 .Weather .temperature {
   color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 56px;
+  line-height: 1;
   font-weight: 400;
 }
 
@@ -42,7 +40,24 @@
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 565;
-  position: relative;
+  position: static;
   line-height: 1;
-  margin-left: 0px;
+  margin-left: 5px;
 }
+
+.Weather img,
+.weather-icon {
+  max-width: 80px;
+  height: auto;
+}
+
+/* Shared layout for icon + temp */
+.weather-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
