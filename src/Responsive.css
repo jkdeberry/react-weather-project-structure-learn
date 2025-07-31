@@ -26,12 +26,6 @@
 }
 
 /* Stack icon and temperature vertically on small screens */
-@media (max-width: 576px) {
-  .Weather .clearfix {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .Weather .temperature {
     font-size: 48px;
     line-height: 1.1;
@@ -68,5 +62,32 @@
 
   .Weather {
     padding: 12px;
+  }
+}
+
+/* Shared style for icon and temperature */
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Responsive fix for mobile layout */
+@media (max-width: 576px) {
+  .weather-main {
+    flex-direction: column;
+  }
+
+  .Weather .temperature {
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .Weather .unit {
+    font-size: 14px;
+    position: static;
+    text-align: center;
   }
 }

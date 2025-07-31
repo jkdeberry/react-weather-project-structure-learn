@@ -31,12 +31,6 @@
 
 }
 
-.Weather .clearfix {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .Weather .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
@@ -50,6 +44,5 @@
   font-weight: 565;
   position: relative;
   line-height: 1;
-  top: -34px;
   margin-left: 0px;
 }
