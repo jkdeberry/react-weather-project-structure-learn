@@ -11,10 +11,29 @@ export default function App() {
       <Weather defaultCity="Greenville" />
       <footer>
         This project was coded by{" "}
-        <a href="https://github.com/jkdeberry" target="_blank"  rel="noopener noreferrer">Jeanine DeBerry</a>{" "}
-        and is {" "} 
-        <a href="https://github.com/jkdeberry/dictionary-project-jd1" target="_blank" rel="noopener noreferrer">open-sourced on Github
-      </a>
+        <a
+          href="https://github.com/jkdeberry"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jeanine DeBerry
+        </a>{" "}
+          and is{" "}
+        <a
+         href="https://github.com/jkdeberry/dictionary-project-jd1"
+        target="_blank"
+        rel="noopener noreferrer"
+         >
+          open-sourced on GitHub
+        </a>{" "}
+          and{" "}
+        <a
+          href="https://jd-react-weather-project.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           hosted on Netlify.
+        </a>
       </footer>
       </div>
     </div>
