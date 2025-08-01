@@ -1,16 +1,39 @@
-/* Stack form fields on small screens */
+@media (max-width: 576px) {
+  .Weather .row {
+    flex-direction: column;
+  }
 
 @media (max-width: 576px) {
   .Weather .row {
     flex-direction: column;
   }
 
+  .Weather h1 {
+    text-align: center;
+  }
+
+  .WeatherInfo ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .WeatherInfo li {
+    text-align: center;
+  }
+
+  .weather-icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 60px;
+    height: auto;
+  }
+}
+
   .Weather .col-9,
   .Weather .col-3 {
     width: 100%;
     margin-bottom: 10px;
   }
-  
 
   .Weather .temperature {
     font-size: 48px;
