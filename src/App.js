@@ -20,7 +20,7 @@ export default function App() {
         </a>{" "}
           and is{" "}
         <a
-         href="https://github.com/jkdeberry/dictionary-project-jd1"
+         href="https://github.com/jkdeberry/jd-react-weather-project"
         target="_blank"
         rel="noopener noreferrer"
          >
